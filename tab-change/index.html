@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="mastHead">
+      <span>*With VPN & ID Protection</span>
+    </section>
+
+    <section id="mainBody">
+      <div class="card outer-card">
+        <div class="card-body outer-card-body">
+          <section id="navbarSection">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <button
+                        id="tab1"
+                        class="btn custom-btn"
+                        onclick="showTab1Details()"
+                      >
+                        2 Year Subscription
+                      </button>
+                    </li>
+                    <li class="nav-item">
+                      <button
+                        id="tab2"
+                        class="btn custom-btn"
+                        onclick="showTab2Details()"
+                      >
+                        1 Year Subscription
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </section>
+
+          <section id="tabBodySection">
+            <div class="card inner-card" style="width: 18rem">
+              <ul class="list-group">
+                <a onclick="showItemPrice1()">
+                  <li id="item1" class="list-group-item">
+                    10 Device - 2 Years Best Deal
+                  </li>
+                </a>
+                <a onclick="showItemPrice2()">
+                  <li id="item2" class="list-group-item">5 Device - 2 Year</li>
+                </a>
+                <a onclick="showItemPrice3()">
+                  <li id="item3" class="list-group-item">1 Device - 2 Year</li>
+                </a>
+              </ul>
+            </div>
+          </section>
+
+          <section id="pricing">
+            <span> <span id="itemPrice">$2.49</span> /month* </span>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
